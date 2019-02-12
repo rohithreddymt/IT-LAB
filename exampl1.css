@@ -1,0 +1,5 @@
+#id1{ property:value: }
+.mycolor{ property:value; }
+<p id="id1">tour data</p>
+<h1 id="id1">Your data</h1>
+<p class="mycolor">Your data<p>

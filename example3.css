@@ -1,0 +1,116 @@
+p {
+  background-color:violet;
+  word-spacing:50;
+  width:300px;
+  border:25px solid black;
+  padding:25px;
+  margin:30px;
+  color:white;
+  text-decoration:none;
+
+}
+ 
+a:link{
+  background-color: red;
+}
+a:visited {
+  background-color: lightgreen;
+}
+a:hover {
+  background-color: hotpink;
+}
+a:active {
+  background-color: blue;
+}
+
+a:hover,a:active{
+
+color:blue;
+padding:14px 25px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+
+  word-spacing:50;
+  width:300px;
+  border:25px solid green;
+  margin:25px;
+}
+a.highlight:hover{
+color:blue;
+}
+p{
+display:none;
+background-color:yellow;
+padding:20px;
+}
+div:hover p{
+display:block;
+}
+
+span::first-line {
+color:white;
+font-variant:small-caps;
+}
+span::first-letter {
+color:red;
+font-size:xx-large;
+}
+
+h1::after{
+content:url(rohith.jpeg);
+}
+h1::selection{
+color:red;
+background:yellow;
+content:url(rohith.jpeg);
+}
+img{
+opacity:0.5;
+filter:alpha(opacity=50);
+}
+img:hover{
+opacity:1.0;
+filter:alpha(opacity=100);
+}
+div.first{
+opacity:0.5;
+filter:alpha(opacity=50);
+}
+div.second{
+opacity:0.2;
+filter:alpha(opacity=100);
+}
+div.third{
+opacity:0.1;
+filter:alpha(opacity=150);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+span{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:1px solid blue;
+background-color:blue;
+}
+
+

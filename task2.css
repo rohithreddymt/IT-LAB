@@ -1,0 +1,22 @@
+div.transbox {
+  background-color:violet;
+  word-spacing:10;
+  border:30px solid black;
+  padding:20px;
+  margin:30px;
+  color:black;
+  text-decoration:none;
+  background-image:url(rohith.jpeg);
+  opacity:0.5;
+  filter:alpha(opacity=100);
+}
+div.transbox { 
+   margin:5%;
+   font-weight:bold;
+   color:red;
+}
+div.background{
+background:url(rohith.jpeg)repeat;
+border:2px solid back;
+a {
+}
